@@ -1,0 +1,350 @@
+/*
+Theme Name: udugonaku
+Author: udugonaku
+Modified by : udugonaku
+Version: 1.0 [Rev 0.1]
+*/
+
+
+/* ----------------------------------------------------- START RESET CSS-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	font-size: 62.5%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	background: #29292A;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+a img {
+	border: 0;
+	height: 520px;
+	width: 740px;
+}
+.clearfix {
+	clear:both
+}
+
+/* ------------------------------------------- START GLOBAL CSS ------------------------------------------- */
+
+a { text-decoration: none; }
+a:link { text-decoration: none; }
+a:visited {  }
+a:hover { text-decoration: none; }
+a:focus { outline: none; }
+h1 { font-size: 18px; }
+h2 { font-size: 16px; }
+h3 { font-size: 16px; }
+h4 { font-size: 14px; }
+h5 { font-size: 12px; }
+h6 { font-size: 12px; }
+p { margin: 10px 0; }
+p img { padding: 0; max-width: 100%; }
+.container { width: 900px; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter,div.aligncenter { display: block; margin: 0 auto; text-align: center; }
+img.alignleft { margin: 5px 15px 10px 0; }
+img.alignright { margin: 5px 0 10px 10px; }
+img.aligncenter { margin: 10px auto; }
+.wp-caption { text-align: center; border-bottom: 1px solid  #298B7A; background-color: #298B7A; padding-top: 5px; margin-bottom: 10px !important; max-width: 100%; }
+.wp-caption img { max-width: 100%; }
+.wp-caption p.wp-caption-text{ font-size: 11px; line-height: 18px; padding: 0 4px 5px; margin: 0; }
+
+/* ------------------------------------------- START Layout CSS ------------------------------------------- */
+
+body { font: 13px/20px Arial,Helvetica,sans-serif; color: #C3C3C3; }
+#wrap { background: #29292A; width: 1050px; margin: 10px auto; padding: 10px; border: 10px; box-shadow: 1px 0px 10px  #298B7A; }
+#main { float: left; width: 1020px; padding: 10px 0; }
+#content { float: left; width: 737px; margin-right: 10px; }
+#sidebar { float: right; width: 250px; }
+
+/* ------------------------------------------- START Header CSS ------------------------------------------- */
+
+#header { float: left; width: 920px; height: 90px; margin-bottom: 10px; text-align: center; }
+#header .logo { float: left; width: auto; }
+
+/* ------------------------------------------- START Entry CSS ------------------------------------------- */
+
+.post { border-bottom: 1px solid   #298B7A; padding: 10px 0; overflow: hidden; }
+.post:hover {border-bottom: 1px solid  #298B7A; box-shadow: 1px 0px 10px  #298B7A;}
+.post a{font-size: 12px;color: #298B7A;font-weight: bold;}.post a:hover{color: #298B7A;}
+.post h2 {font-size:18px;line-height: 22px;font-family: "Arial";word-spacing: -2px;text-align: center; }
+.post h2 a {font-size:20px;color: #298B7A; ;text-decoration: none;font-weight: bold; }
+.post h2 a:hover {color:  #298B7A;text-decoration: none;}
+.post .img { float:left;text-align: center; }
+.post p { line-height: 18px;;margin-bottom:0; }
+.post .meta { margin-top:-1px;margin-bottom: 8px; font-size: 11px; color: gray;text-align: center; }
+.post .meta a{ margin: 5px 0; font-size: 11px; color: #298B7A; }
+.post ul { margin-top: 10px; text-align: center; }
+.post ul li { display: inline-block; margin-right: 10px; margin-bottom: 5px; }
+.post ul li.img-4 {margin-right: 10px; }
+.post ul li img{width: 160px;height: 120px; background:  #298B7A none repeat scroll 0% 0%;margin: 1px;padding: 2px}
+.post ul li.img-4 { margin-right: 0px; }
+.post img:hover { text-shadow: 1px 0px 10px  #298B7A;}
+.breadcrumbs a:hover { text-decoration:underline;color: #232323;}
+.gallery img:hover { box-shadow: 1px 0px 10px  #298B7A;}
+.entry img:hover { box-shadow: 1px 0px 10px  #298B7A;}
+.related_posts .thumb:hover { box-shadow: 1px 0px 10px  #298B7A;}
+.attach-image-nav img:hover { box-shadow: 1px 0px 10px  #298B7A;}
+.post h2:hover { }
+#sidebar .widget ul li:hover { box-shadow: 1px 0px 10px  #298B7A;}
+#sidebar .recent a:hover { box-shadow: 1px 0px 10px  #298B7A;}
+.search form:hover { box-shadow: 1px 0px 10px  #298B7A;}
+a, a:link, a:visited, a:hover, a:focus, .post h2 a, #sidebar .recent a, h1.title { color: #298B7A; }#sidebar h3.title span, #featured .right h3.title span { color:  #298B7A; }
+#header .head .title a:hover, .related_posts h4 a:hover { color: #298B7A; }
+#sidebar .search form { border-color: #298B7A; }
+#main-menu .main-menu li li a:hover,.main-menu li li a:active, #sidebar h3.title span,#main-menu, #fb-comments h5, #featured .right h3.title,.attachment h2.title span { background: #1b1b1b; }
+#main-menu .main-menu li { border-right-color:  #298B7A; }
+#main-menu .main-menu li:first-child { border-left-color:  #298B7A; }
+#footer .menu, #main-menu .main-menu li a:hover, #main-menu .main-menu li.current-menu-item a, #main-menu .main-menu li.current-post-parent a, .breadcrumbs, #sidebar .search form button  { background: #232323; }
+#featured .left .desc, #featured .bottom ul li .meta { background: #29292A; }
+.post h2:hover {font-size:18px;line-height: 22px;font-family: "Arial";word-spacing: -2px; text-decoration:underline;color: #00A0D1;}
+
+
+
+
+/* ------------------------------------------- START Entry CSS ------------------------------------------- */
+
+.entry {}
+.entry .meta { margin: 5px 0; font-size: 11px; color: grey; }
+.entry img {width: 160px; height: 120px; margin-bottom: 5px; border: 1px solid}
+.entry p { line-height: 20px; }
+.entry blockquote { margin: 20px 20px; padding: 0 30px 0 20px; overflow: hidden; border-left: 10px solid #298B7A; }
+.entry ul, .entry ol { margin: 0 0 5px 3em; }
+.entry ol { list-style-type: decimal; }
+.entry ul { list-style-type: square; }
+.entry ul ul, .entry ul ol, .entry ol ol, .entry ol ul { margin: 0 0 0 20px; }
+h1.title { font-size: 22px; line-height: 26px; margin-bottom: 5px; }
+.entry h2, .entry h3, .entry h4 { font-size: 13px; margin: 5px 0; }
+.entry table { width: 100%; border: 1px solid #298B7A; margin: 1.0em 0; border-collapse: collapse; border-spacing: 0; }
+.entry table th { padding: 6px 3px; background: #298B7A; border: 1px solid #298B7A; text-shadow: 1px 1px #298B7A; }
+.entry table td { padding: 3px 5px 3px 5px; border: 1px solid #298B7A;}
+.entry .ads { margin-bottom: 10px; max-width: 336px; display: block; }
+.entry .ads span { font-size: 11px; margin-bottom:5px; text-align: left; display: block; }
+.reviewsnip { background: #29292A; font-size: 11px; padding: 3px 10px; float: left; }
+
+/* ------------------------------------------- START Gallery CSS ------------------------------------------- */
+
+.entry-gallery { text-align: left; }
+.entry-gallery h2.title { line-height: 25px; margin: 0 0 10px 0; padding-left: 10px; font-size: 13px; color:   #00A0D1; }
+.entry-gallery ul { text-align: center; list-style-type: none; margin: 0; }
+.entry-gallery ul li { float: left; margin-right: 10px; margin-bottom: 5px; }
+.entry-gallery ul li.img-4, .entry-gallery ul li.img-8, .entry-gallery ul li.img-12{ margin-right: 0px; }
+
+.entry .gallery { text-align: center; }
+.entry .gallery .gallery-item { float:left;display: inline-block; }
+.entry .gallery img { float: left; width: 700px; height:auto; margin: 5px 5px 10px 5px; }
+.entry .gallery dl, .gallery dt { margin: 0; }
+.entry .gallery br+br, .entry .gallery dd.gallery-caption { display: visible; }
+
+
+.attachment h2.title { margin: 0 auto 10px auto; }
+.attachment h2.title span { line-height: 30px; display: inline-block; padding: 0 30px; font-size: 14px; color: #298B7A; }
+.attachment p { max-width: 728px; text-align: justify; }
+.attach-image img { max-width: 100%; height: auto; }
+.attach-image-nav { margin-top: 10px; text-align: center; }
+.attach-image-nav img { display: inline-block; margin: 0 5px 5px 5px; width: 110px; height: 80px; }
+.attachment h3.title { background: #298B7A; }
+.attachment h3.title { color: #29292A; }
+
+/* ------------------------------------------- START Sidebar CSS ------------------------------------------- */
+
+#sidebar h3.title  { height: 30px; line-height: 30px; font-size: 15px; text-transform: uppercase; }
+#sidebar h3.title span  { padding-left: 10px; display: block; background: #29292A; box-shadow: 0px 0px 0px 1px  #298B7A; }
+#sidebar .widget { margin-bottom: 10px; }
+#sidebar .widget_ads { margin-bottom: 10px; }
+#sidebar .widget .inner { }
+#sidebar .widget ul { color:  #298B7A;  }
+#sidebar .widget ul li { padding: 2px 5px; line-height: 18px; border-bottom: 0px solid   #29292A; }
+#sidebar .widget ul li:hover { background-color:  #29292A; }
+#sidebar a { color: #C3C3C3; }
+#sidebar .recent ul { padding: 5px 0; }
+#sidebar .recent ul li .thumb { float: left; width: 145px; height: 110px; margin-right: 10px;}
+#sidebar .recent ul li { margin-bottom: 5px; clear: both; overflow: hidden; }
+#sidebar .recent ul li h4{ font-size: 13px; line-height: 16px; }
+#sidebar .recent a { }
+#sidebar .recent .meta { margin: 5px 0; font-size: 11px; color: black; }
+#sidebar .gallery ul { padding: 10px 0; text-align: center; }
+#sidebar .gallery ul li { float: left; margin-right: 10px; margin-bottom: 5px; }
+#sidebar .gallery ul li.img-2, #sidebar .gallery ul li.img-4, #sidebar .gallery ul li.img-6{ margin-right: 0px; }
+#sidebar .gallery ul li img { width: 145px; height: 110px; }
+
+#sidebar .search { margin-bottom: 10px; width: 100%; }
+#sidebar .search form { border-width: 1px; border-style: solid; height: auto;  background:  #298B7A; }
+#sidebar .search form input { border: none; float: left; width: 75%; line-height: 25px; padding-left: 10px; margin: 0;  background: #29292A; }
+#sidebar .search form button { border: none; float: right; width: 20%; line-height: 25px; margin: 0; color:  #298B7A; }
+
+/* ------------------------------------------- START Footer CSS ------------------------------------------- */
+
+#footer { width: 100%; color:   #C3C3C3; background: #29292A; }
+#footer .menu { font-size: 13px; overflow: hidden; padding: 5px 10px; }
+#footer .menu ul li { float: left ; margin-right: 10px; }
+#footer .menu ul li:after { content: " | "; margin-left: 10px; }
+#footer .menu ul li:last-child:after { content: " "; margin-left: 0; }
+#footer .copyright { font-size: 11px; padding: 0 10px; }
+#footer a { color:   #298B7A; }
+
+
+/* ------------------------------------------- START Menu CSS ------------------------------------------- */
+
+nav select { display: none; border: 1px solid #298B7A; padding: 3px; }
+#main-menu { width: 100%; height: 38px; line-height: 38px; font-size: 12px; font-weight: bold; text-align: center; overflow: hidden; background: #29292A; }
+#main-menu .ihome { float:left; margin: 5px 12px; display: inline; width:30px; height:30px; } 
+#main-menu .main-menu { text-align: left; }
+#main-menu .main-menu ul { width: 100%; }
+#main-menu .main-menu li { float: left; border-right-width: 1px; border-right-style: solid; }
+#main-menu .main-menu li:first-child { border-left-width: 1px; border-left-style: solid; }
+#main-menu .main-menu li a { color: #298B7A; display: block; text-transform: uppercase; padding: 0 12px; overflow: hidden; }
+#main-menu .main-menu li a:hover { text-decoration: none; }
+#main-menu .main-menu li li a, #main-menu .main-menu li li a:link, #main-menu .main-menu li li a:visited { background: #298B7A; color: #298B7A; position: relative; text-transform: uppercase; width: 138px; padding: 0px 10px; border-bottom: 1px solid #298B7A; }
+#main-menu .main-menu li li a:hover,.main-menu li li a:active { }
+#main-menu .main-menu li li:first-child { border: none; }
+#main-menu .main-menu li li { border: none; }
+#main-menu .main-menu li ul{ height: auto; left: -9999px; position: absolute; width: 160px; z-index: 9999; margin: 0; }
+#main-menu .main-menu li ul a { width: 140px; }
+#main-menu .main-menu li ul ul { margin: -33px 0 0 159px; }
+#main-menu .main-menu li:hover>ul { left: auto; }
+#main-menu .main-menu li.current-menu-item a, #main-menu .main-menu li.current-post-parent a { }
+
+/* ------------------------------------------- START Pagenavi CSS ------------------------------------------- */
+
+.Nav { font-size: 12px; width: 100%; margin: 15px 0; color: #C3C3C3; text-align: center;}
+.Nav a { border: 1px solid  #298B7A; color: #C3C3C3 !important; background: #29292A; padding: 6px; }
+.Nav a:visited { border: 1px solid  #298B7A; background: #29292A; }
+.Nav a:hover { background: #29292A; text-decoration: none;box-shadow: 1px 0px 10px  #298B7A; }
+.Nav span { background: #29292A; border: 1px solid   #298B7A; margin-right: 3px; padding: 6px 5px; }
+.Nav .on { background: #29292A; border: 1px solid  #298B7A; padding: 6px;box-shadow: 1px 0px 10px  #298B7A; }
+
+/* ------------------------------------------- START Share CSS ------------------------------------------- */
+
+.social-container { margin: 15px 0; width: 100%; }
+.SocialCustomMenu { margin: 0; }
+.SocialCustomMenu span { display: inline; padding: 5px; text-decoration: none; font-size: 0.95em; }
+.SocialCustomMenu a, .SocialCustomMenu a:visited { display: inline; padding: 5px; color: white!important; text-decoration: none; font-size: 0.95em; }
+.social-container .twitter { background-color: #298B7A; }
+.social-container .facebook { background-color: #298B7A; }
+.social-container .googleplus { background-color: #298B7A; }
+.social-container .sharetext { background: #298B7A; color:#C3C3C3 !important; }
+
+/* ------------------------------------------- START Related CSS ------------------------------------------- */
+
+.related_posts { width: 100%; margin: 10px 0; }
+.related_posts h3 {  height: 30px; line-height: 30px; font-size: 15px; padding: 10px 10px; color:  #00A0D1;}
+.related_posts .thumb { float: left; margin-right: 10px; width: 200px; height: 170px;}
+.related_posts ul { background: #29292A; }
+.related_posts ul li {background-color: #29292A; padding: 6px; display: block; overflow: hidden; display: inline-block;
+margin: 0px 5px 5px;width: 200px;height: 190px; }
+
+.related_posts h4 { font-size: 10px; line-height: 17px; margin-bottom: 5px; }
+.related_posts h4 a { color: #C3C3C3; }
+.related_posts p { margin: 0; }
+.related_posts .relatedcontent { float: left; overflow: hidden; }
+
+/* ------------------------------------------- START Other CSS ------------------------------------------- */
+
+#fb-comments h5 { color: #29292A; height: 25px; line-height: 25px; font-size: 12px; text-transform: uppercase; padding: 0 10px; }
+.breadcrumbs { color:   #B9C3C3	; font-size: 11px; font-weight: normal; line-height: 20px; overflow: hidden; padding: 0 10px; }
+.breadcrumbs a { color:  #232323 !important; }
+
+/* ------------------------------------------- START Home CSS ------------------------------------------- */
+
+#featured { width: 100%; margin-bottom: 10px; }
+#featured .left { float: left; width: 610px; margin-right: 10px; position: relative; text-align: center; }
+#featured .left img { width: 100%; height: 310px; display: inline-block; }
+#featured .left .desc { position: absolute; top: 15px; right: 15px; padding: 10px; width: 60%; text-align: left; }
+#featured .left .desc h2 { font-size: 22px; line-height: 24px; }
+#featured .left .desc h2 a { color:  #298B7A; }
+#featured .left .desc p { color: #298B7A; }
+#featured .right { float: left; width: 300px; }
+#featured .right h3.title  { height: 30px; line-height: 30px; font-size: 15px; text-transform: uppercase; margin-bottom: 10px; }
+#featured .right h3.title span  { padding-left: 10px; display: block; }
+#featured .bottom ul { width: 100%; text-align: center; margin-top: 10px; }
+#featured .bottom ul li { float: left; width: 145px; margin-right: 10px; position: relative; }
+#featured .bottom ul li .meta { position: absolute; top: 10px; right: 0; font-size: 11px; line-height: 11px; color: #298B7A; padding: 3px 10px; }
+#featured .bottom ul li .meta a { color: #298B7A; }
+#featured .bottom ul li h2 { font-size: 13px; line-height: 15px; }
+#featured .bottom ul li.img-6 { margin-right: 0px; }
+
+/* ------------------------------------------- START Responsive CSS ------------------------------------------- */
+
+@media only screen and ( max-width: 769px ) {
+img,video,object, .post .img img.thumb, #featured .left img {
+  max-width: 100%;
+  height: auto;
+}
+nav ul, #main-menu .ihome, #fb-comments  { display: none; }
+nav select { display: inline-block; width: 250px; height: 23px; margin: 5px 0; overflow: hidden; background: #298B7A; float: none; font-size: 12px; }
+#wrap { width: 90%; }
+#main { width: 100%; }
+#main-menu, #footer, #header { width: 100%; }
+#content, #sidebar, .entry, .wp-caption, #featured .left { width: 100%; }
+#fb-comments, #featured .right { display: none; }
+#header .logo { float: none; text-align: center; }
+#header .logo img{ height: 100%; }
+.entry .ads { margin: 0 auto 10px auto; }
+#featured .bottom ul li, .entry-gallery ul li { float: none; display: inline-block; }
+#featured .left { float: none; margin-right: 0; }
+.post ul li, #featured .bottom ul li, .entry-gallery ul li, .entry .gallery img { margin: 0 5px 5px 5px !important; }
+#sidebar .gallery ul li  { margin-right: 10px !important; }
+}
+
+@media only screen and ( max-width: 480px ) {
+#featured .left .desc p { display: none; }
+}
+
+.entry{
+	text-align: justify;
+}
